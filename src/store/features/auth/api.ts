@@ -1,19 +1,20 @@
-import { protectedBaseQuery } from "@/store/baseQuery/protected.baseQuery";
 import { createApi } from "@reduxjs/toolkit/dist/query";
+import { protectedBaseQuery } from "@/store/baseQuery/protected.baseQuery";
+
 import { SignIn } from "./auth.interface";
 
 export const authAPI = createApi({
-  baseQuery:protectedBaseQuery,
-  reducerPath:"authAPI",
-  endpoints:(build)=>({
-    login:build.mutation<any,any>({
-      query:(signInData:SignIn)=>({
-            url:"",
-            body:signInData,
-            method:"POST"
-        })
+  baseQuery: protectedBaseQuery,
+  reducerPath: "authAPI",
+  endpoints: (build) => ({
+    login: build.mutation<any, any>({
+      query: (signInData: SignIn) => ({
+        url: "",
+        body: signInData,
+        method: "POST"
       })
     })
   })
+})
 
-export const {} = authAPI;
+export const { } = authAPI;

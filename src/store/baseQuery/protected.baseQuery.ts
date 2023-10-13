@@ -1,4 +1,4 @@
-import { baseUrl } from "@/constant/endpoints";
+import { baseUrl } from "@/core/constant/endpoints";
 import { fetchBaseQuery } from "@reduxjs/toolkit/dist/query";
 
  export const protectedBaseQuery = fetchBaseQuery({
