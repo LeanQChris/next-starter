@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images:{
-    domains:[]
+  env: {
+    baseUrl: "",
+    sessionKey: {
+      token: "token",
+      user: "user"
+    }
+  },
+  images: {
+    domains: []
   }
 }
 

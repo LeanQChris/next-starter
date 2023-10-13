@@ -1,7 +1,7 @@
-export const baseUrl :string= ""
+export const baseUrl: string = process.env.baseUrl ?? "";
 
-export const endpoints={
-  auth:{
-    signIn:""
+export const endpoints = {
+  auth: {
+    signIn: ""
   }
 }
