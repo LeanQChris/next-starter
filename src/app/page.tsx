@@ -1,7 +1,7 @@
 import withAuth from "@/core/hoc/withAuth";
 
 function Home() {
-  return <></>;
+    return <></>;
 }
 
 export default withAuth(Home);

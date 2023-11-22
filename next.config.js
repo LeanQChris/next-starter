@@ -8,7 +8,7 @@ const nextConfig = {
     }
   },
   images: {
-    domains: []
+    domains: ["rickandmortyapi.com"]
   }
 }
 
