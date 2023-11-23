@@ -1,9 +1,0 @@
-import React from "react";
-
-export default function StoreProvider({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return <div>{children}</div>;
-}
