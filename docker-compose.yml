@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: ./
+      target: runner
+    container_name: next-starter-docker
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev
+    ports:
+      - "420:420"
+    environment:
+      NODE_ENV: development
