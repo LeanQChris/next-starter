@@ -7,6 +7,7 @@ export default async function Characters() {
     const resp: Response = await fetchCharacters();
 
     if (resp.error) {
+        console.log()
         return <p>{resp.error}</p>
     }
 
