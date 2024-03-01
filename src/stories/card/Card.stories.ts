@@ -13,5 +13,7 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
     args: {
         label: 'Card',
+        image: "https://v1.tailwindcss.com/img/card-top.jpg",
+        content: "Hello Word",
     },
 }
