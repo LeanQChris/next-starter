@@ -1,1 +1,15 @@
-{"orgId":"tCAfH8Ju5P5tdI041IDE13od","projectId":"prj_jtvQU6zgNWvprvsjfbicxBXC2DQA"}
+{
+  "projectId": "prj_jtvQU6zgNWvprvsjfbicxBXC2DQA",
+  "orgId": "tCAfH8Ju5P5tdI041IDE13od",
+  "settings": {
+    "createdAt": 1709121504646,
+    "framework": null,
+    "devCommand": "npm run storybook",
+    "installCommand": "npm install",
+    "buildCommand": "npm run build-storybook",
+    "outputDirectory": "./storybook-static",
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "18.x"
+  }
+}
